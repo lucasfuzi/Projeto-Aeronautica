@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia EFOMM 2026 - Ingresso na Carreira</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        
+        .nav-link:hover {
+            color: #60a5fa;
+            transition: color 0.2s;
+        }
+
+        .btn-pulse {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Botão Voltar ao Portal -->
+    <a href="index.html" class="fixed top-4 left-4 z-50 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white px-4 py-2 rounded-full border border-white/20 shadow-lg transition-all flex items-center gap-2 text-sm font-medium">
+        <i class="fas fa-arrow-left"></i> Voltar ao Portal
+    </a>
+
+    <!-- Header/Hero -->
+    <header class="hero-gradient text-white py-16 px-6 text-center shadow-2xl">
+        <div class="max-w-4xl mx-auto">
+            <i class="fas fa-anchor text-5xl mb-6 text-blue-400"></i>
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Escola de Formação de Oficiais da Marinha Mercante</h1>
+            <p class="text-xl text-slate-300 font-light mb-8">Guia completo para o Processo Seletivo EFOMM/2026</p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <!-- Botão do Edital Completo (Destaque) -->
+                <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/edital%20efomm.pdf" 
+                   target="_blank" 
+                   class="btn-pulse bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-file-pdf text-xl"></i> ACESSAR EDITAL COMPLETO 2026
+                </a>
+
+                <a href="https://www.marinha.mil.br/ciaga/node/161" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition-all shadow-lg flex items-center justify-center gap-2">
+                    <i class="fas fa-external-link-alt"></i> Site Oficial CIAGA
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        
+        <!-- Quick Overview -->
+        <section class="grid md:grid-cols-3 gap-8 mb-16">
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-user-check text-3xl text-blue-600 mb-4"></i>
+                <h3 class="font-bold text-lg mb-2">Requisitos Básicos</h3>
+                <p class="text-slate-600 text-sm">Brasileiro nato, 17-23 anos (em 01/01 do ano de ingresso) e Ensino Médio completo.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-map-marker-alt text-3xl text-blue-600 mb-4"></i>
+                <h3 class="font-bold text-lg mb-2">Locais de Formação</h3>
+                <p class="text-slate-600 text-sm">CIAGA (Rio de Janeiro) ou CIABA (Belém).</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 text-center">
+                <i class="fas fa-graduation-cap text-3xl text-blue-600 mb-4"></i>
+                <h3 class="font-bold text-lg mb-2">Vagas Disponíveis</h3>
+                <p class="text-slate-600 text-sm">374 vagas totais (210 para o CIAGA e 164 para o CIABA).</p>
+            </div>
+        </section>
+
+        <!-- As Etapas -->
+        <section class="mb-20">
+            <h2 class="text-3xl font-bold text-center mb-12">As 4 Etapas do Concurso</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="step-card bg-white p-6 rounded-xl border-l-4 border-blue-500 shadow-md">
+                    <span class="text-blue-500 font-bold text-sm uppercase">1ª Etapa</span>
+                    <h4 class="font-bold mt-1">Exame de Conhecimentos</h4>
+                    <p class="text-slate-500 text-xs mt-2">Eliminatória e Classificatória. Português, Inglês, Matemática e Física.</p>
+                </div>
+                <div class="step-card bg-white p-6 rounded-xl border-l-4 border-emerald-500 shadow-md">
+                    <span class="text-emerald-500 font-bold text-sm uppercase">2ª Etapa</span>
+                    <h4 class="font-bold mt-1">Seleção Psicofísica</h4>
+                    <p class="text-slate-500 text-xs mt-2">Exames médicos para comprovar aptidão física e mental.</p>
+                </div>
+                <div class="step-card bg-white p-6 rounded-xl border-l-4 border-orange-500 shadow-md">
+                    <span class="text-orange-500 font-bold text-sm uppercase">3ª Etapa</span>
+                    <h4 class="font-bold mt-1">Suficiência Física</h4>
+                    <p class="text-slate-500 text-xs mt-2">Corrida e natação para testar o vigor físico do candidato.</p>
+                </div>
+                <div class="step-card bg-white p-6 rounded-xl border-l-4 border-purple-500 shadow-md">
+                    <span class="text-purple-500 font-bold text-sm uppercase">4ª Etapa</span>
+                    <h4 class="font-bold mt-1">Período de Adaptação</h4>
+                    <p class="text-slate-500 text-xs mt-2">Verificação de documentos e adaptação militar no Centro de Instrução.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios -->
+        <section class="bg-blue-600 text-white rounded-3xl p-10 mb-20 shadow-xl">
+            <div class="flex flex-col md:flex-row items-center gap-10">
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">Por que escolher a EFOMM?</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-blue-300"></i> Ensino Superior gratuito (Ciências Náuticas)
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-blue-300"></i> Remuneração mensal e alimentação inclusa
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-blue-300"></i> Assistência médica e odontológica completa
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fas fa-check-circle text-blue-300"></i> Carreira global com alta demanda no mercado
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 bg-blue-700 p-8 rounded-2xl border border-blue-400">
+                    <h3 class="font-bold text-xl mb-4 text-center">Sobre a Carreira</h3>
+                    <p class="text-blue-100 text-sm leading-relaxed italic">
+                        "O curso dura 3 anos em regime de internato seguidos por um estágio embarcado de 12 meses. Ao final, você se torna Oficial de Máquinas ou de Náutica da Marinha Mercante."
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Downloads / Materiais -->
+        <section id="downloads" class="text-center">
+            <h2 class="text-3xl font-bold mb-4">Materiais de Estudo</h2>
+            <p class="text-slate-600 mb-8">Organize seus estudos com os cronogramas detalhados e o edital oficial.</p>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                
+                <!-- Português -->
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-all">
+                    <i class="fas fa-language text-blue-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold mb-3">Português</h4>
+                    <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/Edital%20Verticalizado_%20Portugu%C3%AAs.pdf"
+                       download
+                       class="inline-block w-full bg-slate-800 text-white px-4 py-2 rounded-lg text-xs font-semibold hover:bg-slate-700">
+                        <i class="fas fa-download mr-1"></i> Verticalizado
+                    </a>
+                </div>
+
+                <!-- Inglês -->
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-all">
+                    <i class="fas fa-globe-americas text-emerald-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold mb-3">Inglês</h4>
+                    <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/Edital%20Verticalizado_%20Ingl%C3%AAs.pdf"
+                       download
+                       class="inline-block w-full bg-slate-800 text-white px-4 py-2 rounded-lg text-xs font-semibold hover:bg-slate-700">
+                        <i class="fas fa-download mr-1"></i> Verticalizado
+                    </a>
+                </div>
+
+                <!-- Matemática -->
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-all">
+                    <i class="fas fa-calculator text-orange-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold mb-3">Matemática</h4>
+                    <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/Edital%20Verticalizado_%20Matem%C3%A1tica.pdf"
+                       download
+                       class="inline-block w-full bg-slate-800 text-white px-4 py-2 rounded-lg text-xs font-semibold hover:bg-slate-700">
+                        <i class="fas fa-download mr-1"></i> Verticalizado
+                    </a>
+                </div>
+
+                <!-- Física -->
+                <div class="bg-white border border-slate-200 p-6 rounded-xl hover:shadow-md transition-all">
+                    <i class="fas fa-atom text-purple-500 text-3xl mb-4"></i>
+                    <h4 class="font-bold mb-3">Física</h4>
+                    <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/Edital%20Verticalizado_%20F%C3%ADsica.pdf"
+                       download
+                       class="inline-block w-full bg-slate-800 text-white px-4 py-2 rounded-lg text-xs font-semibold hover:bg-slate-700">
+                        <i class="fas fa-download mr-1"></i> Verticalizado
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card Destaque Edital -->
+            <div class="bg-emerald-50 border-2 border-emerald-200 p-8 rounded-3xl shadow-inner">
+                <i class="fas fa-file-contract text-4xl text-emerald-600 mb-4"></i>
+                <h3 class="text-2xl font-bold text-emerald-900 mb-2">Edital Completo EFOMM 2026</h3>
+                <p class="text-emerald-700 mb-6 max-w-2xl mx-auto">
+                    A leitura do edital é indispensável. Clique no botão abaixo para abrir o documento oficial com todas as normas e cronogramas.
+                </p>
+                <a href="https://raw.githubusercontent.com/caiolima2008/projeto-humanas/main/edital/edital%20efomm.pdf" 
+                   target="_blank" 
+                   class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-10 rounded-xl transition-all shadow-md">
+                    <i class="fas fa-file-pdf"></i> Abrir Edital PDF
+                </a>
+            </div>
+            
+            <div class="mt-12 p-6 bg-slate-100 rounded-2xl border border-dashed border-slate-300">
+                <p class="text-sm text-slate-600 mb-4 font-medium">Dúvidas sobre o processo? Acesse o portal oficial CIAGA.</p>
+                <a href="https://www.marinha.mil.br/ciaga/node/161" target="_blank" class="text-blue-600 font-bold hover:underline">
+                    Portal CIAGA Marinha <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-slate-500 py-12 px-6 mt-20 text-center border-t border-slate-800">
+        <p class="text-sm">© 2025 - Guia de Ingresso EFOMM.</p>
+        <div class="flex justify-center gap-4 mt-4 text-xs">
+            <a href="index.html" class="nav-link">Início</a>
+            <a href="#downloads" class="nav-link">Materiais</a>
+            <a href="https://www.marinha.mil.br/ciaga/" class="nav-link">CIAGA</a>
+        </div>
+    </footer>
+
+</body>
+</html>
